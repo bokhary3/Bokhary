@@ -10,6 +10,20 @@
 		DA4DC0F922A9A09900F1B8E9 /* Bokhary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4DC0EF22A9A09900F1B8E9 /* Bokhary.framework */; };
 		DA4DC0FE22A9A09900F1B8E9 /* BokharyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4DC0FD22A9A09900F1B8E9 /* BokharyTests.swift */; };
 		DA4DC10022A9A09900F1B8E9 /* Bokhary.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4DC0F222A9A09900F1B8E9 /* Bokhary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA4DC10B22A9A0CD00F1B8E9 /* Bokhary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4DC10A22A9A0CD00F1B8E9 /* Bokhary.swift */; };
+		DABD0E8222AB000400570F4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABD0E8122AB000400570F4F /* AppDelegate.swift */; };
+		DABD0E8422AB000400570F4F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABD0E8322AB000400570F4F /* TableViewController.swift */; };
+		DABD0E8722AB000400570F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABD0E8522AB000400570F4F /* Main.storyboard */; };
+		DABD0E8C22AB000700570F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABD0E8B22AB000700570F4F /* Assets.xcassets */; };
+		DABD0E8F22AB000700570F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABD0E8D22AB000700570F4F /* LaunchScreen.storyboard */; };
+		DABD0EA222AB002000570F4F /* Bokhary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4DC0EF22A9A09900F1B8E9 /* Bokhary.framework */; };
+		DABD0EA322AB002000570F4F /* Bokhary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA4DC0EF22A9A09900F1B8E9 /* Bokhary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DABD0EAC22AB01A800570F4F /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABD0EAB22AB01A800570F4F /* ResponseModel.swift */; };
+		DAC5AA2D22AC2E59002073B6 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5AA2C22AC2E59002073B6 /* UserTableViewCell.swift */; };
+		DAC5AA2F22AC4603002073B6 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5AA2E22AC4603002073B6 /* DetailsTableViewController.swift */; };
+		DAC5AA3122AC491F002073B6 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5AA3022AC491F002073B6 /* ImageTableViewCell.swift */; };
+		DAC5AA3322AC4F6B002073B6 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5AA3222AC4F6B002073B6 /* NetworkError.swift */; };
+		DAC5AA3522AC4F84002073B6 /* DataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5AA3422AC4F84002073B6 /* DataDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +34,28 @@
 			remoteGlobalIDString = DA4DC0EE22A9A09900F1B8E9;
 			remoteInfo = Bokhary;
 		};
+		DABD0EA422AB002000570F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA4DC0E622A9A09900F1B8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4DC0EE22A9A09900F1B8E9;
+			remoteInfo = Bokhary;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DABD0EA622AB002100570F4F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DABD0EA322AB002000570F4F /* Bokhary.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DA4DC0EF22A9A09900F1B8E9 /* Bokhary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bokhary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +64,22 @@
 		DA4DC0F822A9A09900F1B8E9 /* BokharyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BokharyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4DC0FD22A9A09900F1B8E9 /* BokharyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BokharyTests.swift; sourceTree = "<group>"; };
 		DA4DC0FF22A9A09900F1B8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4DC10A22A9A0CD00F1B8E9 /* Bokhary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bokhary.swift; sourceTree = "<group>"; };
+		DABD0E7F22AB000300570F4F /* Test Bokhary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Bokhary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABD0E8122AB000400570F4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DABD0E8322AB000400570F4F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DABD0E8622AB000400570F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABD0E8B22AB000700570F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABD0E8E22AB000700570F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABD0E9022AB000700570F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABD0E9922AB000800570F4F /* Test_BokharyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_BokharyTests.swift; sourceTree = "<group>"; };
+		DABD0E9B22AB000800570F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABD0EAB22AB01A800570F4F /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		DAC5AA2C22AC2E59002073B6 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		DAC5AA2E22AC4603002073B6 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		DAC5AA3022AC491F002073B6 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		DAC5AA3222AC4F6B002073B6 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		DAC5AA3422AC4F84002073B6 /* DataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +98,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DABD0E7C22AB000300570F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABD0EA222AB002000570F4F /* Bokhary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +114,8 @@
 			children = (
 				DA4DC0F122A9A09900F1B8E9 /* Bokhary */,
 				DA4DC0FC22A9A09900F1B8E9 /* BokharyTests */,
+				DABD0E8022AB000400570F4F /* Test Bokhary */,
+				DABD0E9822AB000800570F4F /* Test BokharyTests */,
 				DA4DC0F022A9A09900F1B8E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +125,7 @@
 			children = (
 				DA4DC0EF22A9A09900F1B8E9 /* Bokhary.framework */,
 				DA4DC0F822A9A09900F1B8E9 /* BokharyTests.xctest */,
+				DABD0E7F22AB000300570F4F /* Test Bokhary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +133,7 @@
 		DA4DC0F122A9A09900F1B8E9 /* Bokhary */ = {
 			isa = PBXGroup;
 			children = (
+				DA4DC10922A9A0B700F1B8E9 /* Source */,
 				DA4DC0F222A9A09900F1B8E9 /* Bokhary.h */,
 				DA4DC0F322A9A09900F1B8E9 /* Info.plist */,
 			);
@@ -84,6 +147,82 @@
 				DA4DC0FF22A9A09900F1B8E9 /* Info.plist */,
 			);
 			path = BokharyTests;
+			sourceTree = "<group>";
+		};
+		DA4DC10922A9A0B700F1B8E9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA4DC10A22A9A0CD00F1B8E9 /* Bokhary.swift */,
+				DAC5AA3422AC4F84002073B6 /* DataDownloader.swift */,
+				DAC5AA3222AC4F6B002073B6 /* NetworkError.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DABD0E8022AB000400570F4F /* Test Bokhary */ = {
+			isa = PBXGroup;
+			children = (
+				DABD0EAA22AB016600570F4F /* Views */,
+				DABD0EA922AB015800570F4F /* Resources */,
+				DABD0EA822AB014E00570F4F /* Controllers */,
+				DAC5AA2B22AC2E39002073B6 /* Custom cells */,
+				DABD0EA722AB014600570F4F /* Models */,
+				DABD0E8122AB000400570F4F /* AppDelegate.swift */,
+				DABD0E9022AB000700570F4F /* Info.plist */,
+			);
+			path = "Test Bokhary";
+			sourceTree = "<group>";
+		};
+		DABD0E9822AB000800570F4F /* Test BokharyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DABD0E9922AB000800570F4F /* Test_BokharyTests.swift */,
+				DABD0E9B22AB000800570F4F /* Info.plist */,
+			);
+			path = "Test BokharyTests";
+			sourceTree = "<group>";
+		};
+		DABD0EA722AB014600570F4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DABD0EAB22AB01A800570F4F /* ResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DABD0EA822AB014E00570F4F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DABD0E8322AB000400570F4F /* TableViewController.swift */,
+				DAC5AA2E22AC4603002073B6 /* DetailsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DABD0EA922AB015800570F4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DABD0E8B22AB000700570F4F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DABD0EAA22AB016600570F4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DABD0E8522AB000400570F4F /* Main.storyboard */,
+				DABD0E8D22AB000700570F4F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAC5AA2B22AC2E39002073B6 /* Custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				DAC5AA2C22AC2E59002073B6 /* UserTableViewCell.swift */,
+				DAC5AA3022AC491F002073B6 /* ImageTableViewCell.swift */,
+			);
+			path = "Custom cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +275,25 @@
 			productReference = DA4DC0F822A9A09900F1B8E9 /* BokharyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DABD0E7E22AB000300570F4F /* Test Bokhary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABD0EA022AB000800570F4F /* Build configuration list for PBXNativeTarget "Test Bokhary" */;
+			buildPhases = (
+				DABD0E7B22AB000300570F4F /* Sources */,
+				DABD0E7C22AB000300570F4F /* Frameworks */,
+				DABD0E7D22AB000300570F4F /* Resources */,
+				DABD0EA622AB002100570F4F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABD0EA522AB002000570F4F /* PBXTargetDependency */,
+			);
+			name = "Test Bokhary";
+			productName = "Test Bokhary";
+			productReference = DABD0E7F22AB000300570F4F /* Test Bokhary.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +306,12 @@
 				TargetAttributes = {
 					DA4DC0EE22A9A09900F1B8E9 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					DA4DC0F722A9A09900F1B8E9 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DABD0E7E22AB000300570F4F = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -160,6 +322,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DA4DC0E522A9A09900F1B8E9;
 			productRefGroup = DA4DC0F022A9A09900F1B8E9 /* Products */;
@@ -168,6 +331,7 @@
 			targets = (
 				DA4DC0EE22A9A09900F1B8E9 /* Bokhary */,
 				DA4DC0F722A9A09900F1B8E9 /* BokharyTests */,
+				DABD0E7E22AB000300570F4F /* Test Bokhary */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +351,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DABD0E7D22AB000300570F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABD0E8F22AB000700570F4F /* LaunchScreen.storyboard in Resources */,
+				DABD0E8C22AB000700570F4F /* Assets.xcassets in Resources */,
+				DABD0E8722AB000400570F4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +368,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4DC10B22A9A0CD00F1B8E9 /* Bokhary.swift in Sources */,
+				DAC5AA3522AC4F84002073B6 /* DataDownloader.swift in Sources */,
+				DAC5AA3322AC4F6B002073B6 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +382,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DABD0E7B22AB000300570F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC5AA2D22AC2E59002073B6 /* UserTableViewCell.swift in Sources */,
+				DAC5AA2F22AC4603002073B6 /* DetailsTableViewController.swift in Sources */,
+				DABD0E8422AB000400570F4F /* TableViewController.swift in Sources */,
+				DAC5AA3122AC491F002073B6 /* ImageTableViewCell.swift in Sources */,
+				DABD0EAC22AB01A800570F4F /* ResponseModel.swift in Sources */,
+				DABD0E8222AB000400570F4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +403,31 @@
 			target = DA4DC0EE22A9A09900F1B8E9 /* Bokhary */;
 			targetProxy = DA4DC0FA22A9A09900F1B8E9 /* PBXContainerItemProxy */;
 		};
+		DABD0EA522AB002000570F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4DC0EE22A9A09900F1B8E9 /* Bokhary */;
+			targetProxy = DABD0EA422AB002000570F4F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DABD0E8522AB000400570F4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABD0E8622AB000400570F4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABD0E8D22AB000700570F4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABD0E8E22AB000700570F4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DA4DC10122A9A09900F1B8E9 /* Debug */ = {
@@ -341,6 +555,7 @@
 		DA4DC10422A9A09900F1B8E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +573,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bokhary.Bokhary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +582,7 @@
 		DA4DC10522A9A09900F1B8E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +608,7 @@
 		DA4DC10722A9A09900F1B8E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9WC5VCAQB;
 				INFOPLIST_FILE = BokharyTests/Info.plist;
@@ -409,6 +627,7 @@
 		DA4DC10822A9A09900F1B8E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9WC5VCAQB;
 				INFOPLIST_FILE = BokharyTests/Info.plist;
@@ -418,6 +637,44 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bokhary.BokharyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DABD0E9C22AB000800570F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9WC5VCAQB;
+				INFOPLIST_FILE = "Test Bokhary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bokhary.Test-Bokhary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABD0E9D22AB000800570F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9WC5VCAQB;
+				INFOPLIST_FILE = "Test Bokhary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bokhary.Test-Bokhary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +707,15 @@
 			buildConfigurations = (
 				DA4DC10722A9A09900F1B8E9 /* Debug */,
 				DA4DC10822A9A09900F1B8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABD0EA022AB000800570F4F /* Build configuration list for PBXNativeTarget "Test Bokhary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABD0E9C22AB000800570F4F /* Debug */,
+				DABD0E9D22AB000800570F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

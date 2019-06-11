@@ -19,9 +19,21 @@ class BokharyTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testLoadMethod() {
+        
+        guard let url = URL(string: "https://www.hackingwithswift.com") else {
+            return
+        }
+        
+        Bokhary.Setting.cashSize = 100
+        Bokhary.load(url: url, of: .data) { (result) in
+            switch result {
+            case .success(let data):
+                print("Data: \(String(describing: String(data: data, encoding: .utf8)))")
+            case .failure(let error):
+                print("Error: \(error.localizedDescription)")
+            }
+        }
     }
 
     func testPerformanceExample() {
